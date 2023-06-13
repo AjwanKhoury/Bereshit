@@ -14,7 +14,7 @@ class Bereshit_101:
     def runLanding(self):
         craft = SpaceCraft(0, 0, 0, 215, 0, 100000, 100000, 0, 0.1, 0, SpaceCraft.WEIGHT_EMP + 215)
         pid = PID(1.2, 0.01, 0.3)
-        pid_ang = PID(0.314, 0.00003, 0.13)  # Update with the desired values of p_ang, i_ang, and d_ang
+        pid_ang = PID(0.314, 0.00003, 0.13) 
 
         while craft.getAlt() > 0:
             ds_angle = 0

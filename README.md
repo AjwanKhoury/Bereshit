@@ -1,6 +1,3 @@
-# Bereshit
-# Python Classes README
-
 ## About the Simulation
 
 This simulation aims to replicate the landing procedure of the Bereshit spacecraft using a PID controller to regulate engine thrust and vehicle angle. The PID controller ensures precise control over the spacecraft's vertical and horizontal speeds as well as its angle throughout the landing process.
